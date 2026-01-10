@@ -5,14 +5,9 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/
 
 TDS:Loadout("Gatling Gun", "Scout", "Commander", "Rocketeer", "Hacker")
 
-TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
-TDS:Place("Mercenary Base", -122.59919, 95, 23.97639) -- 2
-TDS:Place("Mercenary Base", -122.10042, 95, 51.34341) -- 3
-TDS:Place("Gatling Gun", -128.78168, 95, 52.14725) -- 4
-
-TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
-TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
-TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
+TDS:Place("Scout", -126.05087, 1.00, 16.82470) -- 1
+TDS:Place("Scout", -126.05087, 1.00, 16.82470) -- 1
+TDS:Place("Scout", -126.05087, 1.00, 16.82470) -- 1
 TDS:Upgrade(1)
 TDS:Upgrade(2)
 TDS:Upgrade(3)
