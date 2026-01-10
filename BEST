@@ -58,11 +58,11 @@ TDS:Loadout("Mercenary Base", "DJ Booth", "Paintballer", "Firework Technician", 
 
 TDS:Place("Firework Technician", -126.05087, 1.00, 16.82470) -- 4
 TDS:Upgrade(14)
-TDS:Place("Mercenary Base", -122.59919, 1.00, 23.97639) -- 1
+TDS:Place("Mercenary Base", -119.50795, 1.00, 23.89633) -- 1
 TDS:Upgrade(15)
 TDS:Upgrade(15)
 TDS:Upgrade(15)
-TDS:Place("Mercenary Base", -122.10042, 1.00, 51.34341) -- 4
+TDS:Place("Mercenary Base", -119.50795, 1.00, 23.89633) -- 4
 TDS:Upgrade(16)
 TDS:Upgrade(16)
 TDS:Upgrade(16)
@@ -103,7 +103,7 @@ TDS:Upgrade(15)
 TDS:Upgrade(15)
 TDS:Upgrade(15)
 
-TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 119}, true)
+TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 132}, true)
 
 TDS:Upgrade(16)
 TDS:Upgrade(16)
@@ -111,13 +111,14 @@ TDS:Upgrade(16)
 
 TDS:SetOption(16, "Unit 1", "Field Medic")
 
-TDS:Ability(16, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 120}, true)
+TDS:Ability(16, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 132}, true)
 
 TDS:Upgrade(17)
 TDS:Upgrade(17)
 TDS:Upgrade(17)
+TDS:Upgrade(13)
 
-TDS:Ability(17, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 120}, true)
+TDS:Ability(17, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 132}, true)
 
 TDS:Loadout("Sniper", "Warlock", "Accelerator", "Harvester", "Hacker")
 
@@ -133,13 +134,13 @@ TDS:Upgrade(8)
 TDS:Upgrade(12)
 TDS:Upgrade(19)
 TDS:Upgrade(20)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Place("Warlock", -126.05087, 1.00, 16.82470) -- 6
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
-TDS:Place("Warlock", -20.03326, 95, -13.49332) -- 6
+TDS:Place("Warlock", -126.05087, 1.00, 16.82470) -- 6
 TDS:Upgrade(23)
 TDS:Upgrade(23)
 
@@ -160,7 +161,7 @@ TDS:Upgrade(23)
 TDS:Upgrade(23)
 TDS:Upgrade(18)
 TDS:Upgrade(18)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Place("Warlock", -126.05087, 1.00, 16.82470) -- 6
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
@@ -187,26 +188,25 @@ TDS:Upgrade(27)
 TDS:Upgrade(12)
 TDS:Upgrade(19)
 TDS:Upgrade(20)
-TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 7
+TDS:Place("Hacker", -126.05087, 1.00, 16.82470) -- 7
 TDS:Upgrade(28)
 TDS:Upgrade(28)
 TDS:Upgrade(28)
 TDS:Upgrade(28)
-TDS:Upgrade(28)
+TDS:Upgrade(28, 2)
 
 TDS:Ability(8, "Hologram Tower", {
     towerToClone = 21,
     towerPosition = {
-        Vector3.new(-20.03326, 95, -13.49332),
-        Vector3.new(-4.17581, 95, -3.15300),
+        Vector3.new(-132.09050, 1.00, 7.63608),
     }
 }, true)
 
 TDS:Ability(28, "Hologram Tower", {
     towerToClone = 22,
     towerPosition = {
-        Vector3.new(-4.17581, 95, -3.15300),
-        Vector3.new(-20.03326, 95, -13.49332),
+        Vector3.new(-132.09050, 1.00, 7.63608),
+        Vector3.new(-132.09050, 1.00, 7.63608),
     }
 }, true)
 
@@ -226,6 +226,7 @@ TDS:Upgrade(30)
 TDS:Upgrade(30)
 TDS:Upgrade(30)
 TDS:Upgrade(30)
+TDS:Upgrade(13)
 TDS:Upgrade(13)
 
 TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
