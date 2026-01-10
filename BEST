@@ -26,7 +26,7 @@ TDS:Upgrade(6)
 TDS:Place("Scout", -126.05087, 1.00, 16.82470) -- 1
 TDS:Upgrade(7)
 TDS:Upgrade(7)
-TDS:Place("Hacker", -126.87189, 1.00, 14.40622) -- 1
+TDS:Place("Hacker", -126.05087, 1.00, 16.82470) -- 1
 TDS:Upgrade(8)
 TDS:Upgrade(8)
 TDS:Place("Scout", -126.05087, 1.00, 16.82470) -- 1
