@@ -1,0 +1,240 @@
+_G.AutoStrat = true
+
+-- [[ INITIALIZE LIBRARY ]]
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
+
+TDS:Loadout("Gatling Gun", "Scout", "Commander", "Rocketeer", "Hacker")
+
+TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
+TDS:Place("Mercenary Base", -122.59919, 95, 23.97639) -- 2
+TDS:Place("Mercenary Base", -122.10042, 95, 51.34341) -- 3
+TDS:Place("Gatling Gun", -128.78168, 95, 52.14725) -- 4
+
+TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
+TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
+TDS:Place("Scout", -126.05087, 95, 16.82470) -- 1
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 2
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Gatling Gun", -23.48566, 1.00, 3.32278) -- 1
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+TDS:Loadout("Mercenary Base", "DJ Booth", "Paintballer", "Firework Technician", "Commander")
+
+TDS:Place("Firework Technician", -17.77630, 95, -3.55266) -- 4
+TDS:Upgrade(14)
+TDS:Place("Mercenary Base", -7.76190, 95, -0.41696) -- 1
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Mercenary Base", 25.48763, 95, 18.29806) -- 4
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Mercenary Base", 25.48763, 95, 18.29806) -- 4
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("DJ Booth", -13.76295, 95, -8.90935) -- 4
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+TDS:SetOption(18, "Track", "Green")
+TDS:Ability(18, "Drop The Beat", {Nill} , true)
+
+TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+TDS:AutoChain(12, 19, 20)
+
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 119}, true)
+
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+TDS:SetOption(16, "Unit 1", "Field Medic")
+
+TDS:Ability(16, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 120}, true)
+
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+TDS:Ability(17, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 120}, true)
+
+TDS:Loadout("Sniper", "Warlock", "Accelerator", "Harvester", "Hacker")
+
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(12)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Warlock", -20.03326, 95, -13.49332) -- 6
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+TDS:SetOption(15, "Unit 1", "Riot Guard")
+TDS:SetOption(15, "Unit 2", "Riot Guard")
+TDS:SetOption(15, "Unit 3", "Riot Guard")
+TDS:SetOption(16, "Unit 1", "Riot Guard")
+TDS:SetOption(16, "Unit 2", "Riot Guard")
+TDS:SetOption(16, "Unit 3", "Riot Guard")
+TDS:SetOption(17, "Unit 1", "Field Medic")
+TDS:SetOption(17, "Unit 2", "Riot Guard")
+TDS:SetOption(17, "Unit 3", "Rifleman")
+
+TDS:SetOption(18, "Track", "Red")
+
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Accelerator", -7.75928, 95, 4.85472) -- 7
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Accelerator", -7.75928, 95, 4.85472) -- 7
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Accelerator", -7.75928, 95, 4.85472) -- 7
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(12)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 7
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+
+TDS:Ability(8, "Hologram Tower", {
+    towerToClone = 21,
+    towerPosition = {
+        Vector3.new(-20.03326, 95, -13.49332),
+        Vector3.new(-4.17581, 95, -3.15300),
+    }
+}, true)
+
+TDS:Ability(28, "Hologram Tower", {
+    towerToClone = 22,
+    towerPosition = {
+        Vector3.new(-4.17581, 95, -3.15300),
+        Vector3.new(-20.03326, 95, -13.49332),
+    }
+}, true)
+
+TDS:Ability(12, "Support Caravan", {Nill} , true)
+TDS:Ability(19, "Support Caravan", {Nill} , true)
+TDS:Ability(20, "Support Caravan", {Nill} , true)
+
+TDS:Place("Accelerator", -7.75928, 95, 4.85472) -- 7
+TDS:Upgrade(29)
+TDS:Place("Accelerator", -7.75928, 95, 4.85472) -- 7
+TDS:Upgrade(30)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(13)
+
+TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
+TDS:Ability(16, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
+
+TDS:Upgrade(14)
+TDS:Upgrade(14)
