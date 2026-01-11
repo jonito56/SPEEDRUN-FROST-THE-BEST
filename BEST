@@ -49,7 +49,7 @@ TDS:Upgrade(7)
 TDS:Upgrade(9)
 TDS:Upgrade(10)
 TDS:Upgrade(11)
-TDS:Place("Gatling Gun", 18.35156, 60, 23.80418) -- 1
+TDS:Place("Gatling Gun", 18.35656, 1.00, 27.27307) -- 1
 TDS:Upgrade(13)
 TDS:Upgrade(13)
 TDS:Upgrade(13)
