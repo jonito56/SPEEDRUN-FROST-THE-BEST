@@ -4,6 +4,14 @@ _G.AutoStrat = true
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
 TDS:Loadout("Gatling Gun", "Scout", "Commander", "Rocketeer", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("U-Turn", {
+    HiddenEnemies = true,
+    Glass = true,
+    Committed = true,
+    Limitation = true,
+    ExplodingEnemies = true
+})
 
 TDS:Place("Scout", 15.02156, 60, 5.71032) -- 1
 TDS:Place("Scout", 15.02156, 60, 5.71032) -- 1
