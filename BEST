@@ -58,6 +58,7 @@ TDS:Loadout("Mercenary Base", "DJ Booth", "Paintballer", "Firework Technician", 
 
 TDS:Place("Firework Technician", 15.56306, 60, 14.74519) -- 4
 TDS:Upgrade(14)
+TDS:Upgrade(14)
 TDS:Place("Mercenary Base", 8.98397, 60, 10.59723) -- 1
 TDS:Upgrade(15)
 TDS:Upgrade(15)
