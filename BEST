@@ -49,28 +49,28 @@ TDS:Upgrade(7)
 TDS:Upgrade(9)
 TDS:Upgrade(10)
 TDS:Upgrade(11)
-TDS:Place("Gatling Gun", 18.35156, 1.00, 23.80418) -- 1
+TDS:Place("Gatling Gun", 18.35156, 60, 23.80418) -- 1
 TDS:Upgrade(13)
 TDS:Upgrade(13)
 TDS:Upgrade(13)
 
 TDS:Loadout("Mercenary Base", "DJ Booth", "Paintballer", "Firework Technician", "Commander")
 
-TDS:Place("Firework Technician", 15.56306, 1.00, 14.74519) -- 4
+TDS:Place("Firework Technician", 15.56306, 60, 14.74519) -- 4
 TDS:Upgrade(14)
-TDS:Place("Mercenary Base", 8.98397, 1.00, 10.59723) -- 1
+TDS:Place("Mercenary Base", 8.98397, 60, 10.59723) -- 1
 TDS:Upgrade(15)
 TDS:Upgrade(15)
 TDS:Upgrade(15)
-TDS:Place("Mercenary Base", -15.35090, 1.00, 20.04803) -- 4
+TDS:Place("Mercenary Base", -15.35090, 60, 20.04803) -- 4
 TDS:Upgrade(16)
 TDS:Upgrade(16)
 TDS:Upgrade(16)
-TDS:Place("Mercenary Base", -15.35090, 1.00, 20.04803) -- 4
+TDS:Place("Mercenary Base", -15.35090, 60, 20.04803) -- 4
 TDS:Upgrade(17)
 TDS:Upgrade(17)
 TDS:Upgrade(17)
-TDS:Place("DJ Booth", 15.56306, 1.00, 14.74519) -- 4
+TDS:Place("DJ Booth", 15.56306, 60, 14.74519) -- 4
 TDS:Upgrade(18)
 TDS:Upgrade(18)
 TDS:Upgrade(18)
@@ -78,10 +78,10 @@ TDS:Upgrade(18)
 TDS:SetOption(18, "Track", "Green")
 TDS:Ability(18, "Drop The Beat", {Nill} , true)
 
-TDS:Place("Commander", 15.56306, 1.00, 14.74519) -- 1
+TDS:Place("Commander", 15.56306, 60, 14.74519) -- 1
 TDS:Upgrade(19)
 TDS:Upgrade(19)
-TDS:Place("Commander", 15.56306, 1.00, 14.74519) -- 1
+TDS:Place("Commander", 15.56306, 60, 14.74519) -- 1
 TDS:Upgrade(20)
 TDS:Upgrade(20)
 TDS:Upgrade(12)
@@ -122,7 +122,7 @@ TDS:Ability(17, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist 
 
 TDS:Loadout("Sniper", "Warlock", "Accelerator", "Harvester", "Hacker")
 
-TDS:Place("Warlock", 15.02156, 1.00, 5.71032) -- 6
+TDS:Place("Warlock", 15.02156, 60, 5.71032) -- 6
 TDS:Upgrade(21)
 TDS:Upgrade(21)
 TDS:Upgrade(21)
@@ -134,13 +134,13 @@ TDS:Upgrade(8)
 TDS:Upgrade(12)
 TDS:Upgrade(19)
 TDS:Upgrade(20)
-TDS:Place("Warlock", 15.02156, 1.00, 5.71032) -- 6
+TDS:Place("Warlock", 15.02156, 60, 5.71032) -- 6
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
-TDS:Place("Warlock", 15.02156, 1.00, 5.71032) -- 6
+TDS:Place("Warlock", 15.02156, 60, 5.71032) -- 6
 TDS:Upgrade(23)
 TDS:Upgrade(23)
 
@@ -161,25 +161,25 @@ TDS:Upgrade(23)
 TDS:Upgrade(23)
 TDS:Upgrade(18)
 TDS:Upgrade(18)
-TDS:Place("Warlock", 15.02156, 1.00, 5.71032) -- 6
+TDS:Place("Warlock", 15.02156, 60, 5.71032) -- 6
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
-TDS:Place("Accelerator", 8.96083, 1.00, 1.47329) -- 7
+TDS:Place("Accelerator", 8.96083, 60, 1.47329) -- 7
 TDS:Upgrade(25)
 TDS:Upgrade(25)
 TDS:Upgrade(25)
 TDS:Upgrade(25)
 TDS:Upgrade(25)
-TDS:Place("Accelerator", 8.96083, 1.00, 1.47329) -- 7
+TDS:Place("Accelerator", 8.96083, 60, 1.47329) -- 7
 TDS:Upgrade(26)
 TDS:Upgrade(26)
 TDS:Upgrade(26)
 TDS:Upgrade(26)
 TDS:Upgrade(26)
-TDS:Place("Accelerator", 8.96083, 1.00, 1.47329) -- 7
+TDS:Place("Accelerator", 8.96083, 60, 1.47329) -- 7
 TDS:Upgrade(27)
 TDS:Upgrade(27)
 TDS:Upgrade(27)
@@ -188,7 +188,7 @@ TDS:Upgrade(27)
 TDS:Upgrade(12)
 TDS:Upgrade(19)
 TDS:Upgrade(20)
-TDS:Place("Hacker", 15.02156, 1.00, 5.71032) -- 7
+TDS:Place("Hacker", 15.02156, 60, 5.71032) -- 7
 TDS:Upgrade(28)
 TDS:Upgrade(28)
 TDS:Upgrade(28)
@@ -198,15 +198,15 @@ TDS:Upgrade(28, 2)
 TDS:Ability(8, "Hologram Tower", {
     towerToClone = 21,
     towerPosition = {
-        Vector3.new(15.56306, 1.00, 14.74519),
+        Vector3.new(15.56306, 60, 14.74519),
     }
 }, true)
 
 TDS:Ability(28, "Hologram Tower", {
     towerToClone = 22,
     towerPosition = {
-        Vector3.new(15.56306, 1.00, 14.74519),
-        Vector3.new(15.56306, 1.00, 14.74519),
+        Vector3.new(15.56306, 60, 14.74519),
+        Vector3.new(15.56306, 60, 14.74519),
     }
 }, true)
 
@@ -214,9 +214,9 @@ TDS:Ability(12, "Support Caravan", {Nill} , true)
 TDS:Ability(19, "Support Caravan", {Nill} , true)
 TDS:Ability(20, "Support Caravan", {Nill} , true)
 
-TDS:Place("Accelerator", 8.96083, 1.00, 1.47329) -- 7
+TDS:Place("Accelerator", 8.96083, 60, 1.47329) -- 7
 TDS:Upgrade(29)
-TDS:Place("Accelerator", 8.96083, 1.00, 1.47329) -- 7
+TDS:Place("Accelerator", 8.96083, 60, 1.47329) -- 7
 TDS:Upgrade(30)
 TDS:Upgrade(29)
 TDS:Upgrade(29)
