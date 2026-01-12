@@ -10,7 +10,8 @@ TDS:GameInfo("U-Turn", {
     Glass = true,
     Committed = true,
     Limitation = true,
-    ExplodingEnemies = true
+    ExplodingEnemies = true,
+    Quarantine = true
 })
 
 TDS:Place("Scout", 15.02156, 60, 5.71032) -- 1
